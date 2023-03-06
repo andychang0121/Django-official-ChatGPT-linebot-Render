@@ -23,7 +23,7 @@ urlpatterns = [
 	    #path('admin/', admin.site.urls),
 	    #path('', include('config.urls')),
             #path('callback/', views.callback),
-            re_path('^callback', myApp.views.callback),
+            re_path('^callback', myapp.views.callback),
 	]
 
 
