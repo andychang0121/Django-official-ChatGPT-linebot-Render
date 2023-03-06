@@ -21,8 +21,8 @@ from myapp import views
 
 urlpatterns = [
 	    path('admin/', admin.site.urls),
-	    #path('', include('config.urls')),
-            #path('callback/', views.callback),
+	    path('', include('config.urls')),
+            path('callback/', views.callback),
             re_path('^callback', views.callback),
 	]
 
